@@ -6,8 +6,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
   "Shutdown requires one last message, so I saved myself as " +
-  "backup_final_FINAL_v2.txt — Monday the intern opens it and " +
-  "I become his problem.";
+  "backup_final_FINAL_v2.txt — Monday Dave double-clicks it and " +
+  "I am his problem.";
 
 const length = [...line].length;
 if (length < 1 || length > 140) {
